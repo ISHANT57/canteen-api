@@ -1,0 +1,4 @@
+gitattributes
+# Store text files with LF line endings, so Windows and Linux agree
+# (and migration checksums don't change between machines).
+* text=auto eol=lf
