@@ -4,6 +4,4 @@ order food from the campus canteen
 Built with Node.js and
 PostgreSQL.
 
-P�r�a�c�t�i�c�e� �p�r�o�j�e�c�t� �f�o�r� �g�i�t� �f�u�n�d�a�m�e�n�t�a�l�s� �
-�
-�
+
