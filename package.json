@@ -2,15 +2,15 @@
   "name": "canteen-api",
   "version": "1.0.0",
   "description": "order food from the campus canteen",
-  "main": "index.js",
-  "type": "module"
+  "main": "src/server.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start": "node src/server.js",
-	"dev": "node --env-file-if-exists=.env --watch src/server.js",
-"lint": "eslint ."
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/ISHANT57/canteen-api/issues"
   },
