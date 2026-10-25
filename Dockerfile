@@ -7,7 +7,7 @@ RUN npm ci --omit=dev
 COPY src ./src
 
 EXPOSE 3000
-User node
+USER node
 
 CMD ["node" , "src/server.js"]
 
